@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 8px;
+    justify-items: center;
+    align-items: center;
+}
+nav h1{
+    font-size:x-large;
+}
+.navop{
+    color: white;
+    text-decoration: none;
+   
+}
+.navop h5{
+    font-size: small;
+}
+.navmenu{
+    text-align: center;
+    display: flex;
+    padding:1rem;
+    justify-content: space-between;
+    gap: 14px;
+}
+.img{
+    text-decoration: none;
+    
+}
+.logonav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -10px;
+}
+.img-i img{
+padding-top: 7px;
+padding-left: 2px;
+}
+.img-f{
+   margin-left: -15px;
+}
+.img-w img{
+    padding-top: 2px;
+}
+
+ .hero-1{
+    background-image: url("https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg");
+    height: 450px;
+    width: full;
+ }
+ .hero-1 h1{
+    background:none;
+    font-size: 60px;
+    width: 50%;
+ padding-left: 3%;
+ }
+ .hero-1 p{
+    background: none;
+    width: 70%;
+    font-size: 13px;
+    padding-left: 3%;
+    padding-top: 2%;
+    text-align: justify;
+   
+ }
+ .box{
+    height:13vh;
+    width: 39%;
+    padding: 4%;
+    background: none;
+ }
+ .box1{
+    height:13vh;
+    width: 70%;
+    padding-left: 30%;
+    background: none;
+ }
+ .underline{
+  
+    background-color:#F24C4C;
+    height:1vh;
+    width:100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-1 h1 {
+        font-size: 50px;
+    }
+    .hero-1 p {
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.about p {
+    width: 70%;
+    padding-left: 30%;
+    text-align: justify;
+}
+
+.about img {
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+    padding-right: 5%;
+}
+
+.aboutus {
+    text-align: center;
+    margin-top: 6px;
+}
+.aboutus .box{
+    margin-top: -45px;
+    margin-left: 30%;
+
+}
+.Menu .box{
+    margin-top: -45px;
+    margin-left: 30%;  
+}
+.Carousel .box{
+    margin-top: -45px;
+    margin-left: 30%;
+}
+.gallery .box{
+    margin-top: -45px;
+    margin-left: 30%;
+}
+.findus .box{
+    margin-top: -45px;
+    margin-left: 30%;
+}
+.heading{
+    align-items: center;
+    
+}
+.about h1{
+   margin-top: 34px;
+}
+.menu-grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 9%;
+}
+.grid-item{
+    display: flex;
+    gap: 3px;
+    padding: 3px;
+}
+.Menu h1{
+    text-align: center;
+}
+.Menu p{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.grid-item  p{
+    text-align: left;
+}
+.grid-item h1{
+    font-size: 12px;
+    text-align: left;
+    padding-left:8% ;
+    color: #F2C94C;
+}
+.carousel-img{
+    width: 100%;
+    height: auto;
+    max-width: 900px; 
+    max-height: 438px; 
+    object-fit: cover;
+    align-items: center;
+   margin-left: 14%;
+}
+.carousel-indicators{
+    background: none;
+}
+.carousel-indicators button {
+    border: none;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4px;
+  margin: 10px 4px;
+  cursor: pointer;
+    border-radius:80%;
+    background:none;
+   
+   
+}
+
+.carousel-indicators .active {
+    background-color: #fff; /* White dot for active slide */
+}
+
+.carousel-control-prev{
+
+}
+.Gallery-img{
+    display: flex;
+   justify-content: center;
+}
+.first-img{
+    width: 100%;
+    height: 600px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.second-img{
+    width:100%;
+}
+.third-img{
+    width:100%;
+    height:295px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.gallery h1{
+    text-align: center;
+}
+.fourth{
+    display: flex;
+    gap: 5%;
+    padding-left: 12%;
+    padding-top: 2%;
+}
+.fourth h1{
+    width: 50%;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+.location img{
+    width:40px;
+    height:40px;
+}
+.location p{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.mobile{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-top: 4%;
+
+    align-items: center;
+    
+}
+.mobile img{
+    width:40px;
+    height:35px;
+   
+}
+.mobile p{
+    padding-top: 3%;
+
+
+}
+.find{
+    text-align: center;
+}
+.map img{
+    width:60%;
+    height:90%;
+}
+.cont{
+    width: 50%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.mail{
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    
+}
+footer {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    gap: 20px; 
+}
+
+.footphone {
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.footphone img {
+    width: 30px;
+    height: 30px;
+}
+
+.footphone p {
+    margin: 0;
+    padding: 0;
+    display: inline-block; 
+    white-space: nowrap; 
+}
+.mail img{
+    width: 40px;
+    height: 40px;
+}
+.about_content{
+display: flex;
+flex-direction: column;
+}
+.about_content p{
+    margin-top: -9%;
+}
+.Carousel h1 {
+    font-size: 2.5rem; /* Default size for larger screens */
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Hide underline on small screens */
+@media (max-width: 600px) {
+    .underline {
+     display: none;
+    }
+}
+@media (max-width: 600px) {
+    nav {
+         /* Stack items vertically */
+         flex-wrap: wrap;
+        align-items: flex-start; /* Align items to the left */
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    nav h1 {
+        font-size: large; /* Reduce heading size on smaller screens */
+        margin-bottom: 10px; /* Add spacing between title and navmenu */
+    }
+
+    .navmenu {
+        /* Stack menu items vertically */
+        gap: 10px; /* Adjust gap between items */
+        align-items: flex-start; /* Align menu items to the left */
+    }
+ 
+}
+@media (max-width: 300px) {
+    nav {
+         /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+        margin-left: 3%;
+        margin-right: 3%;
+        
+    }
+
+    nav h1 {
+        font-size: large; /* Reduce heading size on smaller screens */
+        margin-bottom: 10px; /* Add spacing between title and navmenu */
+    }
+
+    .navmenu {
+        /* Stack menu items vertically */
+        gap: 10px; /* Adjust gap between items */
+        align-items: flex-start; /* Align menu items to the left */
+        display: none;
+    }
+    .navop h1{
+        font-size: xx-small;
+    }
+    .logonav{
+        display: none;
+    }
+}
+@media (max-width: 650px) 
+{
+.hero-1 p{
+    font-size: xx-small;
+}
+.hero-1 h1{
+    font-size: 40px;
+}
+}
+@media (max-width:600px){
+    .menu-grid{
+        grid-template-columns: 1fr;
+    }
+    .Gallery-img{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .fourth{
+        flex-direction: column;
+    }
+}
+
